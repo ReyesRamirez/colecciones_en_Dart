@@ -25,7 +25,17 @@ void main(){
     Clientes.forEach((key, value){
         print("$key, $value");
     });
-
+     print("Mapa de Clientes: ");
+    print(Clientes);
+    for(var key in Clientes.keys){
+        print("${Clientes[key]}");
+    }
+    print("Mapa de Pedidos: ");
+    print(Pedidos);
+    print("iterar un mapa con forEach: ");
+    Pedidos.forEach((key, value){
+        print("$key, $value");
+    });
     print("Mapa de Pedidos: ");
     print(Pedidos);
     for(var key in Pedidos.keys){
